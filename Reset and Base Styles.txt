@@ -1,5 +1,4 @@
-/* Reset and Base Styles */
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +11,6 @@ body {
     background-color: #ffffff;
 }
 
-/* Variables */
 :root {
     --primary: #2563eb;
     --primary-dark: #1d4ed8;
@@ -419,7 +417,6 @@ body {
     background: var(--primary-dark);
 }
 
-/* Skills Section */
 .skills-section {
     padding: 80px 0;
     background: white;
@@ -845,7 +842,6 @@ body {
     color: #9ca3af;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
     .hero-grid {
         grid-template-columns: 1fr;
@@ -926,4 +922,5 @@ body {
     .social-links {
         justify-content: center;
     }
+
 }
