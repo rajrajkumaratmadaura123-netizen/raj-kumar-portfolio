@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Kumar - Data Analyst & Power BI Specialist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand" onclick="scrollToSection('hero')">
+                Raj Kumar
+            </div>
+            <div class="nav-links">
+                <button onclick="scrollToSection('about')">About</button>
+                <button onclick="scrollToSection('services')">Services</button>
+                <button onclick="scrollToSection('skills')">Skills</button>
+                <button onclick="scrollToSection('portfolio')">Portfolio</button>
+                <button onclick="scrollToSection('contact')">Contact</button>
+            </div>
+            <button class="hire-btn" onclick="scrollToSection('contact')">Hire Me</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Profile Photo -->
+                <div class="photo-container">
+                    <div class="photo-wrapper">
+                        <img src="attached_assets/upscalemedia-transformed_1755693905811.png" 
+                             alt="Raj Kumar - Data Analyst" class="profile-photo">
+                        <div class="photo-badge">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Content -->
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Hi! I'm Raj Kumar –
+                        <span class="highlight">Data Analyst & Power BI Specialist.</span>
+                    </h1>
+                    <p class="hero-description">
+                        I help businesses turn raw, messy data into interactive dashboards & actionable insights
+                        that drive growth and smarter decision-making.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <button class="btn-primary" onclick="scrollToSection('services')">
+                            View My Services
+                        </button>
+                        <button class="btn-secondary" onclick="scrollToSection('portfolio')">
+                            See My Work
+                        </button>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <i class="fas fa-check-circle"></i>
+                            <span>3+ Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-check-circle"></i>
+                            <span>100+ Dashboards Created</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Power BI Certified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Hello! I'm Raj Kumar – Data Analyst & Power BI Specialist with 3+ years of practical experience
+                   in transforming complex data into business insights.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="features">
+                    <h3>Why Clients Choose Me:</h3>
+                    <div class="feature-list">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Business-Focused Approach</h4>
+                                <p>Not just visuals, but real insights that drive business decisions</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>On-Time Delivery</h4>
+                                <p>Reliable project completion with post-project support</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>End-to-End Solutions</h4>
+                                <p>From data cleaning to advanced automation and storytelling dashboards</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Tailored for Decision Makers</h4>
+                                <p>Reports optimized for CEOs, Managers & Startups</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
+                         alt="Data analytics workspace">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Services</h2>
+                <p>Choose the perfect package for your business needs. All packages include consultation and revisions.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Basic Package -->
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon basic">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h3>Basic</h3>
+                        <div class="service-price">$100</div>
+                        <p>Perfect for startups</p>
+                    </div>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Simple Dashboard</li>
+                        <li><i class="fas fa-check"></i> Up to 2 visuals</li>
+                        <li><i class="fas fa-check"></i> Basic data cleaning</li>
+                        <li><i class="fas fa-check"></i> 3 days delivery</li>
+                        <li><i class="fas fa-check"></i> 1 revision included</li>
+                    </ul>
+                    <button class="service-btn" onclick="scrollToSection('contact')">Get Started</button>
+                </div>
+
+                <!-- Standard Package -->
+                <div class="service-card popular">
+                    <div class="popular-badge">POPULAR</div>
+                    <div class="service-header">
+                        <div class="service-icon standard">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Standard</h3>
+                        <div class="service-price">$250</div>
+                        <p>Most popular choice</p>
+                    </div>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Full Dashboard</li>
+                        <li><i class="fas fa-check"></i> Up to 6 visuals</li>
+                        <li><i class="fas fa-check"></i> Advanced data cleaning</li>
+                        <li><i class="fas fa-check"></i> Interactive filters</li>
+                        <li><i class="fas fa-check"></i> 7 days delivery</li>
+                        <li><i class="fas fa-check"></i> 3 revisions included</li>
+                    </ul>
+                    <button class="service-btn" onclick="scrollToSection('contact')">Get Started</button>
+                </div>
+
+                <!-- Premium Package -->
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon premium">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3>Premium</h3>
+                        <div class="service-price">$500+</div>
+                        <p>Enterprise solution</p>
+                    </div>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Advanced Dashboard</li>
+                        <li><i class="fas fa-check"></i> Unlimited visuals</li>
+                        <li><i class="fas fa-check"></i> Data automation</li>
+                        <li><i class="fas fa-check"></i> Business insights</li>
+                        <li><i class="fas fa-check"></i> 14 days delivery</li>
+                        <li><i class="fas fa-check"></i> Unlimited revisions</li>
+                    </ul>
+                    <button class="service-btn" onclick="scrollToSection('contact')">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Expertise</h2>
+                <p>Comprehensive skills in data analysis, visualization, and business intelligence.</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Excel Skills -->
+                <div class="skill-category excel">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-file-excel"></i>
+                        </div>
+                        <h3>Advanced Excel Skills</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">Pivot Tables & Charts</div>
+                        <div class="skill-item">VLOOKUP/XLOOKUP</div>
+                        <div class="skill-item">INDEX-MATCH</div>
+                        <div class="skill-item">Power Query</div>
+                        <div class="skill-item">Power Pivot</div>
+                        <div class="skill-item">DAX Formulas</div>
+                        <div class="skill-item">Dynamic Arrays</div>
+                        <div class="skill-item">Dashboard Creation</div>
+                    </div>
+                </div>
+
+                <!-- Power BI Skills -->
+                <div class="skill-category powerbi">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>Power BI Skills</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">Power BI Desktop</div>
+                        <div class="skill-item">Data Modeling</div>
+                        <div class="skill-item">DAX Functions</div>
+                        <div class="skill-item">Custom Visuals</div>
+                        <div class="skill-item">Row-Level Security</div>
+                        <div class="skill-item">Gateway Setup</div>
+                        <div class="skill-item">API Integration</div>
+                        <div class="skill-item">Report Sharing</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Skills -->
+            <div class="additional-skills">
+                <h4>Additional Expertise</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">SQL Database</span>
+                    <span class="skill-tag">Data Automation</span>
+                    <span class="skill-tag">Business Intelligence</span>
+                    <span class="skill-tag">SharePoint Integration</span>
+                    <span class="skill-tag">Data Storytelling</span>
+                    <span class="skill-tag">KPI Development</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Dashboard Examples</h2>
+                <p>See how I transform raw data into actionable business insights with interactive dashboards.</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500" 
+                         alt="Sales Analytics Dashboard">
+                    <div class="portfolio-content">
+                        <h3>Sales Analytics Dashboard</h3>
+                        <p>Interactive sales performance tracking with revenue insights, regional analysis, and forecasting.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag power-bi">Power BI</span>
+                            <span class="tag sales">Sales</span>
+                            <span class="tag kpis">KPIs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500" 
+                         alt="Financial Analysis Dashboard">
+                    <div class="portfolio-content">
+                        <h3>Financial Analysis Dashboard</h3>
+                        <p>Comprehensive financial reporting with P&L statements, budget tracking, and expense analysis.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag excel">Excel</span>
+                            <span class="tag finance">Finance</span>
+                            <span class="tag budget">Budget</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500" 
+                         alt="HR Analytics Dashboard">
+                    <div class="portfolio-content">
+                        <h3>HR Analytics Dashboard</h3>
+                        <p>Employee performance tracking, attendance monitoring, and workforce analytics for better HR decisions.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag power-bi">Power BI</span>
+                            <span class="tag hr">HR</span>
+                            <span class="tag analytics">Analytics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-cta">
+                <button class="btn-primary" onclick="scrollToSection('contact')">
+                    See More Examples
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Work Together</h2>
+                <p>Ready to transform your data into business success? Let's discuss your project and make your data your biggest business asset.</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:rajkumarpanditt09@gmail.com">rajkumarpanditt09@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+919507488831">+91 9507488831</a>
+                        </div>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="social-section">
+                        <h4>Find Me On</h4>
+                        <div class="social-links">
+                            <a href="https://www.fiverr.com/s/BRNgpBG" target="_blank" class="social-link fiverr">
+                                <i class="fas fa-briefcase"></i>
+                            </a>
+                            <a href="https://www.upwork.com/freelancers/~014d03e02110d7add0" target="_blank" class="social-link upwork">
+                                <i class="fab fa-upwork"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/raj-kumar-112469374" target="_blank" class="social-link linkedin">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.instagram.com/rajkumarpanditt01" target="_blank" class="social-link instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://github.com/rajrajkumaratmadaura123-netizen" target="_blank" class="social-link github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <div class="contact-form">
+                        <h3>Send Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="project">Project Type</label>
+                                <select id="project" name="project">
+                                    <option value="">Select project type</option>
+                                    <option value="basic">Basic Dashboard ($100)</option>
+                                    <option value="standard">Standard Dashboard ($250)</option>
+                                    <option value="premium">Premium Dashboard ($500+)</option>
+                                    <option value="custom">Custom Project</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Project Details</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Tell me about your project requirements..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="form-submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Raj Kumar</h3>
+                    <p>Data Analyst & Power BI Specialist helping businesses turn data into actionable insights.</p>
+                    <div class="footer-social">
+                        <a href="https://www.fiverr.com/s/BRNgpBG" target="_blank"><i class="fas fa-briefcase"></i></a>
+                        <a href="https://www.upwork.com/freelancers/~014d03e02110d7add0" target="_blank"><i class="fab fa-upwork"></i></a>
+                        <a href="https://www.linkedin.com/in/raj-kumar-112469374" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/rajkumarpanditt01" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/rajrajkumaratmadaura123-netizen" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><button onclick="scrollToSection('services')">Power BI Dashboards</button></li>
+                        <li><button onclick="scrollToSection('services')">Excel Automation</button></li>
+                        <li><button onclick="scrollToSection('services')">Data Cleaning</button></li>
+                        <li><button onclick="scrollToSection('services')">Business Intelligence</button></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><button onclick="scrollToSection('about')">About</button></li>
+                        <li><button onclick="scrollToSection('services')">Services</button></li>
+                        <li><button onclick="scrollToSection('skills')">Skills</button></li>
+                        <li><button onclick="scrollToSection('portfolio')">Portfolio</button></li>
+                        <li><button onclick="scrollToSection('contact')">Contact</button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Raj Kumar. All rights reserved. | Data Analyst & Power BI Specialist</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
